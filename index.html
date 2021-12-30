@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<link rel="stylesheet" href="FirstProject.CSS">
+<body>
+     <div class="Heading">
+          <h1>Type The Following Text In The Given TextArea</h1>
+     </div>
+     <div class="Dyanamic_Words">
+          <h2 id="Dynamic_Words">When You Click On Start Button Your Timer Will Get Started & Will Get The Text. Type
+               That Text In The Below Box</h2>
+     </div>
+     <div id="TextArea" class="TextArea">
+          <textarea onblur="blur()" name="" id="textarea" cols="90" rows="10"
+               placeholder="Type The Above Text Here"></textarea>
+     </div>
+     <div class="btn">
+          <button id="btn">START</button>
+          <button id="btn2">RESET</button>
+     </div>
+     <div id="Timer" class="Timer animate__animated ">
+          <h1 style="text-align: center;">Here is the Timer</h1>
+          <h3 id="Watch"></h3>
+     </div>
+</body>
+<script src="FirstProject.JS"></script>
+</html>
